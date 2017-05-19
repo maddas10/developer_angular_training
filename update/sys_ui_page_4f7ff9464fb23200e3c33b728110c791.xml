@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script/>
+        <description>My first AngularJS application in ServiceNow</description>
+        <direct>false</direct>
+        <endpoint>x_10393_angular_ap_angular_app.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.12/angular.min.js"></script>
+	<script src="x_10393_angular_ap.angular_app_client_lo"></script>
+	<link 
+ href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"></link>
+     <body>
+<div ng-app="angularapp" ng-controller="AngularAppCtrl as appctrl">
+	<input type="text" ng-model="myVar" placeholder="Enter some text here"></input>
+	<p></p>
+	<div class="jumbotron">
+	 
+	
+  <h1 class="display-3">Hello World !</h1>
+  <hr class="m-y-2"/>	
+	<p>{{myVar}}</p>
+		 </div>
+		 <button ng-click="clearTxt()" type="btn btn-primary">Clear Text</button>
+	</div>
+<div class="container">
+	<div class="row">
+		<div class="col-sm-4">
+			<h3>Column 1</h3>
+			<p>JAWS</p>
+			
+			</div>
+    <div class="col-sm-4">
+      <h3>Column 2</h3>
+      <p>Is the best</p>
+      <p>Ut enim ad..</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Column 3</h3> 
+      <p>film ever..</p>
+      <p>Ut enim ad..</p>
+    </div>
+  </div>
+</div>
+
+</body>
+</j:jelly>]]></html>
+        <name>angular_app</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-05-19 13:20:46</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>4f7ff9464fb23200e3c33b728110c791</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>angular_app</sys_name>
+        <sys_package display_value="Angular App" source="x_10393_angular_ap">c46fb9c24fb23200e3c33b728110c7fc</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Angular App">c46fb9c24fb23200e3c33b728110c7fc</sys_scope>
+        <sys_update_name>sys_ui_page_4f7ff9464fb23200e3c33b728110c791</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-05-19 14:57:07</sys_updated_on>
+    </sys_ui_page>
+</record_update>
